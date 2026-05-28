@@ -129,16 +129,18 @@ h1 {
 
 .subtitle {
   margin: 34px 0 8px;
-  font-size: clamp(1rem, 2.4vw, 1.18rem);
+  font-size: clamp(0.92rem, 2vw, 1.08rem);
   color: var(--text-main);
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .tagline {
   margin: 0;
   color: var(--text-soft);
-  font-size: clamp(0.95rem, 2.2vw, 1.05rem);
-  letter-spacing: 0.04em;
+  font-size: clamp(0.86rem, 1.8vw, 0.98rem);
+  letter-spacing: 0.035em;
+  white-space: nowrap;
 }
 
 .cloud-frame {
